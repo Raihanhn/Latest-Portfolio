@@ -9,7 +9,7 @@ import Img3 from '../assets/portfolio-img3.png'
 
 const Work = () => {
   return (
-    <section className='section lg:mt-[180px]' id='work' >
+    <section className='section lg:mt-[180px] lg:mb-[200px] ' id='work' >
       <div className="container mx-auto lg:mt-[250px] ">
         <div className=" flex flex-col lg:flex-row gap-x-10  ">
           <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.3}}  className=" flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0   ">

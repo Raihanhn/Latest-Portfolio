@@ -5,9 +5,9 @@ import {fadeIn} from '../variants'
 
 const Contact = () => {
   return (
-    <section className='py-16 lg:section  ' id='contact' >
-      <div className="container mx-auto">
-        <div className=" flex flex-col lg:flex-row ">
+    <section className='py-16 lg:section lg:mb-[200px]'  id='contact' >
+      <div className="container mx-auto lg:mt-[250px]"  >
+        <div className=" flex flex-col lg:flex-row  lg:mb-[200px] ">
           <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.3}}  className=" flex-1 flex justify-start items-center ">
             <div className="">
               <h4 className=' text-xl uppercase text-accent font-medium mb-2 tracking-wide ' >Get in touch </h4>
