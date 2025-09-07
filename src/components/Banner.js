@@ -10,12 +10,12 @@ import { Link } from "react-scroll";
 const Banner = () => {
   return (
     <section
-      className=" min-h-[85vh] lg:min-h-[78vh] flex items-center  cursor-pointer "
+      className=" min-h-[85vh] lg:min-h-[78vh] flex items-center "
       id="home"
     >
-      <div className="container mx-auto  cursor-pointer">
-        <div className=" flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12  cursor-pointer  ">
-          <div className=" flex-1 text-center font-secondary lg:text-left  cursor-pointer  ">
+      <div className="container mx-auto">
+        <div className=" flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+          <div className=" flex-1 text-center font-secondary lg:text-left ">
             {/* <motion.h1 variants={fadeIn('up', 0.3)} initial='hidden' whileInView={'show'} viewport={{once:false, amount:0.7}} className=' text-[55px] font-bold leading-[0.8] lg:text-[10px]  ' >
             MD <span>RAIHAN</span>
           </motion.h1> */}
@@ -24,9 +24,9 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]  cursor-pointer "
+              className="mb-6 text-[36px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className=" text-white mr-4  cursor-pointer">I am a</span>
+              <span className=" text-white mr-4  ">I am a</span>
               <TypeAnimation
                 sequence={[
                   "Full Stack Engineer",
@@ -51,7 +51,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className=" mb-8 max-w-lg mx-auto lg:mx-0  cursor-pointer "
+              className=" mb-8 max-w-lg mx-auto lg:mx-0"
             >
               ☁ I enjoy solving complex problems, learning new technologies, and
               delivering digital solutions that make an impact. I believe in
@@ -69,7 +69,7 @@ const Banner = () => {
                 <button className="btn btn-lg ">Contact me</button>
               </Link>
 
-              <a href="#" className=" text-gradient btn-link  cursor-pointer ">
+              <a href="#" className=" text-gradient btn-link   ">
                 My Portfolio
               </a>
             </motion.div>
