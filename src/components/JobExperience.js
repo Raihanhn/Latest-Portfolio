@@ -38,7 +38,7 @@ const JobExperience = () => {
               designing and developing web and mobile solutions with modern
               technologies while ensuring high performance and user experience.
             </p>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-outside pl-6  space-y-2 text-sm">
               <li>
                 Developed SaaS platforms using React.js, Node.js, Express, and
                 Tailwind CSS, delivering clean, scalable, and maintainable
@@ -87,7 +87,7 @@ const JobExperience = () => {
               clients from diverse industries. My work focuses on building
               modern, responsive, and high-performance web applications.
             </p>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-outside pl-6  space-y-2 text-sm">
               <li>
                 Delivered 5+ projects with 5-star client ratings and repeat
                 hires.
