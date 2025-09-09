@@ -69,3 +69,36 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;       /* make scrollbar thinner */
+  height: 8px;      /* horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e; /* dark background (matches your site theme) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+}
+
