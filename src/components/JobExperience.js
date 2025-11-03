@@ -29,7 +29,7 @@ const JobExperience = () => {
             {/* <p className="text-sm text-gray-400 mb-2"> */}
             <p className="text-sm font-semibold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-2">
               Nexis365 · Full-time <br />
-              May 2023 - Present · 2 yrs 5 mos <br />
+              May 2023 - Nov 2025 · 2 yrs 7 mos <br />
               Baridhara, Dhaka · On-site
             </p>
             <p className="mb-4">
@@ -78,7 +78,7 @@ const JobExperience = () => {
             <h3 className="h3 mb-2">Front-End Developer</h3>
             <p className="text-sm font-semibold bg-gradient-to-r from-lime-400 via-green-500 to-emerald-600 bg-clip-text text-transparent mb-2">
               Upwork · Freelance <br />
-              Jan 2022 - December 2023 · 1 year <br />
+              Jan 2022 - Dec 2023 · 2 yrs <br />
               Bangladesh · Remote
             </p>
             <p className="mb-4">
