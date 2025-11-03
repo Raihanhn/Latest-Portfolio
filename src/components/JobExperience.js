@@ -7,10 +7,10 @@ const JobExperience = () => {
     <section className="section" id="experience">
       <div className="container mx-auto lg:mt-[250px] ">
         <motion.h2
-          variants={fadeIn("up", 0.1)}
+          variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.1 }}
+          viewport={{ once: false, amount: 0.3 }}
           className="h2 text-accent text-center mb-10"
         >
           Job Experience
@@ -19,10 +19,10 @@ const JobExperience = () => {
         <div className="grid gap-10 lg:grid-cols-2">
           {/* Nexis365 */}
           <motion.div
-            variants={fadeIn("right", 0.1)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.1 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="p-6 border border-accent rounded-2xl shadow-lg hover:shadow-xl transition duration-300"
           >
             <h3 className="h3 mb-2">Full-Stack Developer</h3>
@@ -69,7 +69,7 @@ const JobExperience = () => {
 
           {/* Upwork */}
           <motion.div
-            variants={fadeIn("left", 0.3)}
+            variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
