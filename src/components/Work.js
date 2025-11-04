@@ -5,6 +5,8 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/portfolio-img1.png";
 import Img2 from "../assets/portfolio-img2.png";
 import Img3 from "../assets/portfolio-img3.png";
+import Img4 from "../assets/portfolio-img3.png";
+import Img5 from "../assets/portfolio-img3.png";
 
 const projects = [
   {
@@ -25,6 +27,20 @@ const projects = [
     id: 3,
     image: Img3,
     category: "Mobile App",
+    title: "Task Management App",
+    link: "#",
+  },
+    {
+    id: 4,
+    image: Img4,
+    category: "Web e Development",
+    title: "E-Commerce Website",
+    link: "#",
+  },
+  {
+    id: 5,
+    image: Img5,
+    category: "Mobile e App",
     title: "Task Management App",
     link: "#",
   },
@@ -69,6 +85,7 @@ const Work = () => {
             <ProjectCard project={projects[1]} />
             <ProjectCard project={projects[2]} />
           </motion.div>
+          
         </div>
       </div>
     </section>

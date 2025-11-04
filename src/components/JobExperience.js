@@ -23,7 +23,7 @@ const JobExperience = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="p-6 border border-accent rounded-2xl shadow-lg hover:shadow-xl transition duration-300"
+            className="p-6 border border-accent rounded-2xl shadow-lg hover:shadow-xl"
           >
             <h3 className="h3 mb-2">Full-Stack Developer</h3>
             {/* <p className="text-sm text-gray-400 mb-2"> */}
@@ -73,7 +73,7 @@ const JobExperience = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="p-6 border border-accent rounded-2xl shadow-lg hover:shadow-xl transition duration-300"
+            className="p-6 border border-accent rounded-2xl shadow-lg hover:shadow-xl"
           >
             <h3 className="h3 mb-2">Front-End Developer</h3>
             <p className="text-sm font-semibold bg-gradient-to-r from-lime-400 via-green-500 to-emerald-600 bg-clip-text text-transparent mb-2">
