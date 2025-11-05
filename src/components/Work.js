@@ -5,8 +5,6 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/portfolio-img1.png";
 import Img2 from "../assets/portfolio-img2.png";
 import Img3 from "../assets/portfolio-img3.png";
-import Img4 from "../assets/portfolio-img3.png";
-import Img5 from "../assets/portfolio-img3.png";
 
 const projects = [
   {
@@ -29,21 +27,7 @@ const projects = [
     category: "UI/UX Design",
     title: "Nike Store",
     link: "https://raihanhn.github.io/Nike-Store",
-  },
-    {
-    id: 4,
-    image: Img4,
-    category: "Web e Development",
-    title: "E-Commerce Website",
-    link: "#",
-  },
-  {
-    id: 5,
-    image: Img5,
-    category: "Mobile e App",
-    title: "Task Management App",
-    link: "#",
-  },
+  }
 ];
 
 const Work = () => {
