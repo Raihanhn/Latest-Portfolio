@@ -106,7 +106,7 @@ const ProjectCard = ({ project }) => {
       />
 
       {/* Text Content */}
-      <div className="absolute bottom-0 left-0 w-full p-6 z-50 transform translate-y-full group-hover:translate-y-0 transition-all duration-500">
+      <div className="absolute bottom-0 left-0 w-full p-6 z-40 transform translate-y-full group-hover:translate-y-0 transition-all duration-500">
         <div className="flex flex-col items-start">
           <span className="text-gradient text-sm tracking-wider block mb-1">
             {project.category}
