@@ -13,7 +13,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className='mt-[230px] sm-[50px] md-[50px] section lg:mt-[40px]' id='skills'>
+    <section className='mt-[230px] sm-[50px] md-[50px] section lg:mt-[40px] mb-10 lg:mb-10 ' id='skills'>
       <div className="container mx-auto">
         <motion.div 
           variants={fadeIn('up', 0.3)}

@@ -33,7 +33,7 @@ const projects = [
 const Work = () => {
   return (
     <section className="section lg:mt-[180px] lg:mb-[200px]" id="work">
-      <div className="container mx-auto lg:mt-[250px]">
+      <div className="container mx-auto lg:mt-[230px]">
         <div className="flex flex-col lg:flex-row gap-x-10">
           {/* Left Side */}
           <motion.div

@@ -5,7 +5,7 @@ import { fadeIn } from "../variants";
 const JobExperience = () => {
   return (
     <section className="section" id="experience">
-      <div className="container mx-auto lg:mt-[250px] ">
+      <div className="container mx-auto lg:mt-[200px] ">
         <motion.h2
           variants={fadeIn("up", 0.3)}
           initial="hidden"
