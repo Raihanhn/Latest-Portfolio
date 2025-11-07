@@ -35,6 +35,8 @@ const Banner = () => {
                   2000,
                   "Designer",
                   2000,
+                  "App Developer",
+                  2000,
                   "Freelancer",
                   2000,
                   "Tech Enthusiast",
