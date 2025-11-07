@@ -10,25 +10,25 @@ const services = [
     name: "Full-Stack Development",
     description:
       "Design and build end-to-end web applications with React, Next.js, Node.js, Express, and databases like MongoDB/MySQL. I create scalable, high-performance, and maintainable solutions for real-world problems.",
-    link: "Learn more",
+    link: "Build Smarter",
   },
   {
     name: "Mobile App Development",
     description:
       "Develop cross-platform mobile apps with React Native, delivering smooth UI/UX, high performance, and native-like experiences on both Android and iOS devices.",
-    link: "Learn more",
+    link: "Go Mobile",
   },
   {
     name: "UI/UX & Frontend Design",
     description:
       "Craft visually stunning, user-friendly, and responsive interfaces using Tailwind CSS, Material UI, and Shadcn UI, ensuring your users enjoy seamless interactions across all devices.",
-    link: "Learn more",
+    link: "Design Better",
   },
   {
     name: "3D & Interactive Experiences",
     description:
       "Bring web applications to life with 3D graphics and interactive experiences using Three.js, creating engaging, memorable, and immersive user journeys.",
-    link: "Learn more",
+    link: "Feel Real",
   },
 ];
 
