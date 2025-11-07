@@ -4,31 +4,41 @@ import { BsArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
+import {
+  FaCode,
+  FaMobileAlt,
+  FaPalette,
+  FaCube,
+} from "react-icons/fa";
 
 const services = [
   {
     name: "Full-Stack Development",
     description:
       "Design and build end-to-end web applications with React, Next.js, Node.js, Express, and databases like MongoDB/MySQL. I create scalable, high-performance, and maintainable solutions for real-world problems.",
-    link: "Build Smarter",
+    tagline: "Build Smarter",
+    icon: <FaCode size={24} />,
   },
   {
     name: "Mobile App Development",
     description:
       "Develop cross-platform mobile apps with React Native, delivering smooth UI/UX, high performance, and native-like experiences on both Android and iOS devices.",
-    link: "Go Mobile",
+    tagline: "Go Mobile",
+    icon: <FaMobileAlt size={24} />,
   },
   {
     name: "UI/UX & Frontend Design",
     description:
       "Craft visually stunning, user-friendly, and responsive interfaces using Tailwind CSS, Material UI, and Shadcn UI, ensuring your users enjoy seamless interactions across all devices.",
-    link: "Design Better",
+    tagline: "Design Better",
+    icon: <FaPalette size={24} />,
   },
   {
     name: "3D & Interactive Experiences",
     description:
       "Bring web applications to life with 3D graphics and interactive experiences using Three.js, creating engaging, memorable, and immersive user journeys.",
-    link: "Feel Real",
+    tagline: "Feel Real",
+    icon: <FaCube size={24} />,
   },
 ];
 
@@ -62,7 +72,7 @@ const Services = () => {
             <div className="">
               {" "}
               {services.map((service, index) => {
-                const { name, description, link } = service;
+                const { name, description, tagline, icon } = service;
 
                 return (
                   <div
@@ -85,11 +95,11 @@ const Services = () => {
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center "
                       >
                         {" "}
-                        <BsArrowUpRight />{" "}
+                        {icon}{" "}
                       </a>
                       <a href="#" className="text-gradient text-sm">
                         {" "}
-                        {link}{" "}
+                        {tagline}{" "}
                       </a>
                     </div>
                   </div>
