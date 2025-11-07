@@ -4,7 +4,7 @@ import {BsClipboardData, BsBriefcase, BsChatSquare, BsFolder} from 'react-icons/
 import {Link} from 'react-scroll'
 
 const Nav = () => {
-   const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+  //  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
   return (
     <nav className=' fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50 ' >
@@ -24,6 +24,7 @@ const Nav = () => {
          activeClass='active'
          smooth={true}
          spy={true}
+          // offset={-50}
          className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' >
          <BiUser/>
         </Link>
@@ -32,7 +33,7 @@ const Nav = () => {
          activeClass='active'
          smooth={true}
          spy={true}
-          offset={isMobile ? -20 : 0}
+          // offset={isMobile ? -20 : 0}
          className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center '>  
          <BsBriefcase/>
         </Link>
@@ -41,7 +42,7 @@ const Nav = () => {
          activeClass='active'
          smooth={true}
          spy={true}
-          offset={isMobile ? -20 : 0}
+          // offset={isMobile ? -20 : 0}
          className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' >
          <BsClipboardData/>
         </Link>
@@ -51,7 +52,7 @@ const Nav = () => {
          activeClass='active'
          smooth={true}
          spy={true}
-         offset={isMobile ? -20 : 0}
+        //  offset={isMobile ? -20 : 0}
          className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center '>  
          <BsFolder/>
         </Link>
@@ -60,7 +61,7 @@ const Nav = () => {
          activeClass='active'
          smooth={true}
          spy={true}
-         offset={isMobile ? -40 : 0}
+        //  offset={isMobile ? -80 : -50}
          className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center '>  
          <BsChatSquare/>
         </Link>

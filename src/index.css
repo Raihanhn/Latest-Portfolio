@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#contact {
+  padding-bottom: 100px;
+}
+
 .btn {
   background: linear-gradient(
     92.23deg,

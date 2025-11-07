@@ -22,7 +22,7 @@ const Contact = () => {
   }, [state.succeeded]);
 
   return (
-    <section className="py-16 lg:section lg:mb-[200px]" id="contact">
+    <section className="py-16 lg:section lg:mb-[180px] mt-[50px] " id="contact">
       <div className="container mx-auto lg:mt-[220px]">
         {showThankYou ? (
           // ✅ Thank You Message
