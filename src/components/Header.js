@@ -9,7 +9,7 @@ const Header = () => {
     <header className='py-4 ' >
       <div className='container mx-auto' >
        <div className=' flex justify-between items-center ' >
-        <a href='#' >
+        <a href='/' >
           <img src={Logo} alt='' />
         </a>
         <Link to="contact" smooth={true} spy={true}>

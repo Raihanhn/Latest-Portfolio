@@ -90,17 +90,16 @@ const Services = () => {
                       </p>
                     </div>
                     <div className=" flex flex-col flex-1 items-end ">
-                      <a
-                        href="#"
+                      <span 
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center "
                       >
                         {" "}
                         {icon}{" "}
-                      </a>
-                      <a href="#" className="text-gradient text-sm">
+                      </span>
+                      <span className="text-gradient text-sm">
                         {" "}
                         {tagline}{" "}
-                      </a>
+                      </span>
                     </div>
                   </div>
                 );

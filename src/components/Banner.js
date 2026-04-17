@@ -77,9 +77,9 @@ const Banner = () => {
                 <button className="btn btn-lg ">Contact me</button>
               </Link>
 
-              <a href="#" className=" text-gradient btn-link   ">
+              <span  className=" text-gradient btn-link   ">
                 My Portfolio
-              </a>
+              </span>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.7)}
