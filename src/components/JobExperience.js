@@ -28,9 +28,9 @@ const jobs = [
     title: "Full Stack Developer",
     company: "Weberspoint",
     type: "Contract",
-    period: "Nov 2025 – Present · 6 mos",
+    period: "Nov 2025 – Apr 2026 · 6 mos",
     location: "Dhaka, Bangladesh · Remote",
-    current: true,
+    current: false,
     badgeColor: "from-[#3bace2] to-[#ff56f6]",
     borderColor: "border-[#3bace2]/30",
     highlights: [
@@ -81,8 +81,8 @@ const jobs = [
 
 const JobExperience = () => {
   return (
-    <section className="section" id="experience">
-      <div className="container mx-auto lg:mt-[200px]">
+    <section className="py-16 lg:py-24" id="experience">
+      <div className="container mx-auto ">
         <motion.div
           variants={fadeIn("up", 0.3)}
           initial="hidden"
