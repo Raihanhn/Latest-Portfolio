@@ -1,3 +1,5 @@
+// App.js
+
 import React from 'react';
 // components
 import Banner from './components/Banner';

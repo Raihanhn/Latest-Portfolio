@@ -1,3 +1,5 @@
+// Banner.js
+
 import React from "react";
 import Image from "../assets/mine.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";

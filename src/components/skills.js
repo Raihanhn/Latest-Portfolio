@@ -1,3 +1,5 @@
+// Skills.js
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -7,8 +9,8 @@ const skills = [
   "Redux", "TailwindCSS", "Material UI", "Bootstrap", "DaisyUI", "SCSS",
   "Shadcn UI", "Node.js", "Express.js", "MongoDB", "MySQL", "React Native",
   "Firebase", "ReactBricks", "TinaCMS", "Hugo", "Markdown", "Three.js", "VS Code",
-  "Brackets", "Android Studio", "Git", "GitHub", "Figma", "Adobe XD", "Sketch",
-  "Canva", "Photoshop", "Vercel", "Netlify", "cPanel"
+  "Brackets", "Android Studio", "Xcode", "Git", "GitHub", "Figma", "Adobe XD", "Sketch",
+  "Canva", "Photoshop", "Vercel", "Netlify", "cPanel", "Hostinger"
 ];
 
 const Skills = () => {

@@ -1,3 +1,5 @@
+// Header.js
+
 import React from 'react';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
