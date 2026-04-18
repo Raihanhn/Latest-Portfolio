@@ -88,7 +88,7 @@ const Work = () => {
               </h2>
               <p className="max-w-sm mb-16 text-gray-300">
                 Here are some of my recent design and development projects —
-                from sleek landing pages to fully functional apps and websites.
+                from sleek landing pages to fully functional apps and websites.    
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>
